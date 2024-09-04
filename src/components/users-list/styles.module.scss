@@ -1,0 +1,28 @@
+.wrapper {
+  margin-top: 25px;
+  padding-right: 40px;
+  padding-left: 0;
+  width: 100%;
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  @media (max-width: 768px) {
+    padding: 0;
+  }
+  li {
+    width: 100%;
+    max-width: 162px;
+    display: inline-block;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    white-space: nowrap;
+    overflow-x: auto;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+}

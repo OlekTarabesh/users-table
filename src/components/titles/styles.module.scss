@@ -1,0 +1,20 @@
+.headerWrapper {
+  margin-top: 20px;
+  padding: 10px 40px 10px 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 300;
+  background-color: #f3f5f6;
+  border: 1px solid #cdcfcf;
+  border-left: none;
+  border-right: none;
+
+  .header {
+    width: 100%;
+    max-width: 162px;
+  }
+  @media (max-width: 768px) {
+    padding: 10px 0px 10px 0px;
+  }
+}
